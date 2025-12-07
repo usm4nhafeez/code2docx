@@ -36,6 +36,10 @@ code2docx/
 
 ## Installation
 
+```bash
+git clone https://github.com/usm4nhafeez/code2docx
+```
+
 ### Editable install (recommended for development)
 
 ```bash
@@ -51,7 +55,7 @@ pip install .
 ### Install directly from a Git repository
 
 ```bash
-pip install git+https://github.com/<USERNAME>/code2docx.git
+pip install git+https://github.com/usm4nhafeez/code2docx.git
 ```
 
 ---
@@ -127,7 +131,7 @@ The generated PDF:
 
 ## License
 
-MIT License (or your preferred license).
+This project is licensed under the terms of the [MIT License](LICENSE).
 
 ---
 
