@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "code2docx"
+version = "1.0.0"
+description = "Export code files to DOCX with Darcula syntax highlighting"
+requires-python = ">=3.7"
+dependencies = [
+    "python-docx>=0.8.11",
+    "Pygments>=2.10.0",
+]
+
+[project.scripts]
+code2docx = "code2docx.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
